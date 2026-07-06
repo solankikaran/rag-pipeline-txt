@@ -65,9 +65,7 @@ result = model.invoke(messages)
 
 # Display the full result and content only
 print("\n--- Generated Response ---")
-# print("Full result:")
-# print(result)
-print("Content only:")
+print("Response from LLM:")
 print(result)
 
 # More Questions
